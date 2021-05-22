@@ -1,5 +1,5 @@
 import React from "react";
-import weather from "../Card/WeatherDashboard.PNG"
+
 
 function Card(props) {
   return (

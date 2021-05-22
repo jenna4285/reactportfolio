@@ -1,21 +1,30 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
+  "short_name": "Portfolio",
+  "name": "Create React Portfolio",
+  "images": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "currentphoto.jpg",
+      "type": "image/jpg"
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
+      "src": "earth.jpg",
+      "type": "image/jpg"      
     },
     {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "src": "Foodie.PNG",
+      "type": "image/png"
+    },
+    {
+      "src": "NewInTown.PNG",
+      "type": "image/png"
+    },
+    {
+      "src": "WeatherDashboard.PNG",
+      "type": "image/png"
+    },
+    {
+      "src": "WorkDay.PNG",
+      "type": "image/png"
     }
   ],
   "start_url": ".",

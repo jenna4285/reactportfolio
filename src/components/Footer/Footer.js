@@ -6,7 +6,7 @@ function Footer() {
             <ul className="nav d-flex justify-content-between">
                 <li><h6 className="nav-item">Contact Information</h6></li>
                 <li className="nav-item">Phone: 334.559.0968</li>        
-                <li className="nav-item"><a href="mailto: jenna4285@yahoo.com" target="_blank">Email: Jenna4285@yahoo.com</a></li>
+                <li className="nav-item"><a href="mailto: jenna4285@yahoo.com" target="_blank" rel="noreferrer">Email: Jenna4285@yahoo.com</a></li>
             </ul>
         </footer>
     )
