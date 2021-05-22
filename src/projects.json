@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Weather Dashboard",
+        "description": "Utilizing client side API to show user's weather.",
+        "image": "./WeatherDashboard.png",
+        "alt": "Weather Icons",
+        "github": "https://github.com/jenna4285/WeatherDashboard",
+        "deployed": "https://jenna4285.github.io/WeatherDashboard/"
+    },
+    {
+        "name": "Daily Planner",
+        "description": "Using dynamically created HTML elements to display daily activities.",
+        "image": "./WorkDay.PNG",
+        "alt": "Image of Day Planner",
+        "github": "https://github.com/jenna4285/WorkDayScheduler",
+        "deployed": "https://jenna4285.github.io/WorkDayScheduler/"
+    },
+    {
+        "name": "New In Town",
+        "description": "Using two client side API's to present travelers with AIRbnb and Event options.",
+        "image": "./NewInTown.PNG",
+        "alt": "Image of Bedrooms",
+        "github": "https://github.com/rutherford87/NewInTown",
+        "deployed": "https://rutherford87.github.io/NewInTown/"
+    },
+    {
+        "name": "Foodie Digest",
+        "description": "Utilize 3rd party API & cloud database to search for receipes, save favorites, and return saved recipes.",
+        "image": "./Foodie.PNG",
+        "alt": "Images of food",
+        "github": "https://github.com/Jgreenwell93/Foodies-Digest",
+        "deployed": "https://foodie-digest.herokuapp.com/"
+    }
+]

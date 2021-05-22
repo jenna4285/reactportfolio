@@ -9,16 +9,16 @@ function Jumbo () {
       </div>
       <ul className="nav justify-content-end">
         <li className="nav-item">
-          <a className="nav-link" href="/Images/Jenna Garrison Resume - Current.pdf" target="_blank">Resume</a>
+          <a className="nav-link" href="Jenna Garrison Resume - Current.pdf" target="_blank" rel="noreferrer">Resume</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="http://www.linkedin.com/in/jennaholkgarrison" target="_blank">LinkedIn</a>
+          <a className="nav-link" href="http://www.linkedin.com/in/jennaholkgarrison" target="_blank" rel="noreferrer">LinkedIn</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="https://github.com/jenna4285" target="_blank">GitHub</a>
+          <a className="nav-link" href="https://github.com/jenna4285" target="_blank" rel="noreferrer">GitHub</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#contact" target="_blank">Contact</a>
+          <a className="nav-link" href="#contact" target="_blank" rel="noreferrer">Contact</a>
         </li>
       </ul>
     </div>

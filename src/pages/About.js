@@ -7,7 +7,7 @@ function About() {
         < div className="card mb-3" >
           <div className="row no-gutters">
             <div className="col-md-4">
-              <img src="../Images/currentphoto.jpg" alt="Person Smiling at Camera" className="rounded float-left card-img"/>
+              <img src="./currentphoto.jpg" alt="Person Smiling at Camera" className="rounded float-left card-img"/>
             </div>
             <div className="col-md-8">
               <div className="card-body">
@@ -20,7 +20,7 @@ function About() {
         <div className="card mb-3">
           <div className="row no-gutters">
             <div className="col-md-4">
-              <img src="../Images/bluemarble3k-smaller-nasa_custom-644f0b7082d6d0f6814a9e82908569c07ea55ccb-s800-c85.jpeg" alt="Planet Earth from Space with Moon in Distance" className="rounded float-left card-img"/>
+              <img src="./earth.jpeg" alt="Planet Earth from Space with Moon in Distance" className="rounded float-left card-img"/>
             </div>
             <div className="col-md-8">
               <div className="card-body">
