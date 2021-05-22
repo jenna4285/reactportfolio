@@ -1,4 +1,5 @@
 import React from "react";
+import weather from "../Card/WeatherDashboard.PNG"
 
 function Card(props) {
   return (
@@ -15,7 +16,7 @@ function Card(props) {
                 <a href={props.github} target="_blank"  rel="noreferrer" className="text-dark">Link to Repo!</a>
           </small>
        </div>
-      </div>
+    </div>
     </div>
     );
 }

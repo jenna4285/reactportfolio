@@ -7,7 +7,7 @@ function About() {
         < div className="card mb-3" >
           <div className="row no-gutters">
             <div className="col-md-4">
-              <img src="./currentphoto.jpg" alt="Person Smiling at Camera" className="rounded float-left card-img"/>
+              <img src="https://photos.google.com/share/AF1QipNhuEkP1rhdYMyaEatb0qVJYZxzqRck6iLXd9O8GXM6OhpEXKO8_V0tUq1P324DuQ/photo/AF1QipMv_yXN7_3DNf-LaZHp9eJA96L5wVHDnf050FFJ?key=WlEtQ0xfRFJnRjZkcXBTWWhZVG5jUjN4WHk2NmJ3" alt="Person Smiling at Camera" className="rounded float-left card-img"/>
             </div>
             <div className="col-md-8">
               <div className="card-body">
@@ -25,7 +25,7 @@ function About() {
             <div className="col-md-8">
               <div className="card-body">
                 <h5 className="card-title">Green Search!</h5>
-                <p className="card-text"><a href="./Green/green.html" target="_blank" >Utilize</a> my Google Custom Search API to shop for plastic free/zero waste products! The search results will prioritize sustainable sites and products where available..</p>
+                <p className="card-text"><a href="http://www.jennagarrison.com/Green/green.html" target="_blank"  rel="noreferrer"  >Utilize</a> my Google Custom Search API to shop for plastic free/zero waste products! The search results will prioritize sustainable sites and products where available..</p>
               </div>
             </div>
           </div>

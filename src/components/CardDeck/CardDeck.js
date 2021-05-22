@@ -1,10 +1,10 @@
 import React from "react";
-import Card from "./Card";
+import Card from "../Card/Card";
 
 function CardDeck (props) {
 return(
-    <div className="d-flex justify-content-center">
-    <Card>{props.children}</Card>
+    <div class="card-group ">
+        <Card>{props.children}</Card>
     </div> 
 );
 }
