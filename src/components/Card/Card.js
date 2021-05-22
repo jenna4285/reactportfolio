@@ -3,7 +3,7 @@ import weather from "../Card/WeatherDashboard.PNG"
 
 function Card(props) {
   return (
-    <div className="card-group">
+    // <div className="card-group">
       <div className="card">
         <img src={props.image} className="card-img-top h-50" alt={props.alt}/>
           <div className="card-body">
@@ -17,7 +17,7 @@ function Card(props) {
           </small>
        </div>
     </div>
-    </div>
+    // </div>
     );
 }
 

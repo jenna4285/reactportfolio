@@ -2,7 +2,6 @@ import './App.css';
 import Jumbo from './components/JumboNav/Jumbo';
 import About from "./pages/About";
 import Footer from "./components/Footer/Footer";
-// import CardDeck from "./components/CardDeck/CardDeck";
 import Card from "./components/Card/Card";
 import { Component } from 'react';
 import projects from "./projects.json";
@@ -18,7 +17,7 @@ class App extends Component {
       <div className="App">
         <Jumbo/>
           <About/>
-            {/* <CardDeck/> */}
+          <div class="card-group">
             {this.state.projects.map(project => (
               <Card
                 key={project.id}
@@ -30,6 +29,7 @@ class App extends Component {
                 deployed={project.deployed} 
                 />
             ))}
+          </div>  
         <Footer/>
       </div>
       );

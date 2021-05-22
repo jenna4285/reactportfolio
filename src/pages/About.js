@@ -7,7 +7,7 @@ function About() {
         < div className="card mb-3" >
           <div className="row no-gutters">
             <div className="col-md-4">
-              <img src="https://photos.google.com/share/AF1QipNhuEkP1rhdYMyaEatb0qVJYZxzqRck6iLXd9O8GXM6OhpEXKO8_V0tUq1P324DuQ/photo/AF1QipMv_yXN7_3DNf-LaZHp9eJA96L5wVHDnf050FFJ?key=WlEtQ0xfRFJnRjZkcXBTWWhZVG5jUjN4WHk2NmJ3" alt="Person Smiling at Camera" className="rounded float-left card-img"/>
+              <img src="https://photos.app.goo.gl/cuWNia6Lbpxo7FHe9" alt="Person Smiling at Camera" className="rounded float-left card-img"/>
             </div>
             <div className="col-md-8">
               <div className="card-body">
