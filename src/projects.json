@@ -34,5 +34,23 @@
         "alt": "Images of food",
         "github": "https://github.com/Jgreenwell93/Foodies-Digest",
         "deployed": "https://foodie-digest.herokuapp.com/"
+    },
+    {
+        "id": 5,
+        "name": "Note Taker",
+        "description": "Write paths and use express to POST and GET notes!",
+        "image": {"src": "../public/note.PNG", "type":"image/png"},
+        "alt": "Images of notes",
+        "github": "https://github.com/jenna4285/notetaker",
+        "deployed": "https://jennanotetaker.herokuapp.com/"
+    },
+    {
+        "id": 6,
+        "name": "Budget Tracker",
+        "description": "PWA for budget tracking using data-cache and indexdb (plus service workers and manifests) to allow use of the app while offline. Once you re-connect, all transactions are posted to MongoDB Atlas.",
+        "image": {"src": "../public/budget.PNG", "type":"image/png"},
+        "alt": "Chart indicating cash flow",
+        "github": "https://github.com/jenna4285/BudgetTracker",
+        "deployed": "https://budget-tracker-garrison.herokuapp.com/"
     }
 ]
