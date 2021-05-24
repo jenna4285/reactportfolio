@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Weather Dashboard",
         "description": "Utilizing client side API to show user's weather.",
-        "image": {"src":"../public/WeatherDashboard.PNG", "type": "image/png"},
+        "image": "/WeatherDashboard.PNG",
         "alt": "Weather Icons",
         "github": "https://github.com/jenna4285/WeatherDashboard",
         "deployed": "https://jenna4285.github.io/WeatherDashboard/"
@@ -12,7 +12,7 @@
         "id": 2,
         "name": "Daily Planner",
         "description": "Using dynamically created HTML elements to display daily activities.",
-        "image": {"src":"../public/WorkDay.PNG","type": "image/png"},
+        "image": "/WorkDay.PNG",
         "alt": "Image of Day Planner",
         "github": "https://github.com/jenna4285/WorkDayScheduler",
         "deployed": "https://jenna4285.github.io/WorkDayScheduler/"
@@ -21,7 +21,7 @@
         "id": 3,
         "name": "New In Town",
         "description": "Using two client side API's to present travelers with AIRbnb and Event options.",
-        "image": {"src":"../public/NewInTown.PNG", "type":"image/png"},
+        "image": "/NewInTown.PNG",
         "alt": "Image of Bedrooms",
         "github": "https://github.com/rutherford87/NewInTown",
         "deployed": "https://rutherford87.github.io/NewInTown/"
@@ -30,7 +30,7 @@
         "id": 4,
         "name": "Foodie Digest",
         "description": "Utilize 3rd party API & cloud database to search for receipes, save favorites, and return saved recipes.",
-        "image": {"src": "../public/Foodie.PNG", "type":"image/png"},
+        "image": "/Foodie.PNG",
         "alt": "Images of food",
         "github": "https://github.com/Jgreenwell93/Foodies-Digest",
         "deployed": "https://foodie-digest.herokuapp.com/"
@@ -39,7 +39,7 @@
         "id": 5,
         "name": "Note Taker",
         "description": "Write paths and use express to POST and GET notes!",
-        "image": {"src": "../public/note.PNG", "type":"image/png"},
+        "image": "/note.PNG",
         "alt": "Images of notes",
         "github": "https://github.com/jenna4285/notetaker",
         "deployed": "https://jennanotetaker.herokuapp.com/"
@@ -48,7 +48,7 @@
         "id": 6,
         "name": "Budget Tracker",
         "description": "PWA for budget tracking using data-cache and indexdb (plus service workers and manifests) to allow use of the app while offline. Once you re-connect, all transactions are posted to MongoDB Atlas.",
-        "image": {"src": "../public/budget.PNG", "type":"image/png"},
+        "image": "/budget.PNG",
         "alt": "Chart indicating cash flow",
         "github": "https://github.com/jenna4285/BudgetTracker",
         "deployed": "https://budget-tracker-garrison.herokuapp.com/"

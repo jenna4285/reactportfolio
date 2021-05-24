@@ -1,7 +1,7 @@
 import './App.css';
-// import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Jumbo from './components/JumboNav/Jumbo';
-import About from "./pages/About";
+import About from "./About/About";
 import Footer from "./components/Footer/Footer";
 import Card from "./components/Card/Card";
 import { Component } from 'react';
@@ -18,8 +18,8 @@ class App extends Component {
     return (
       <div className="App">
         <Jumbo/>
-        {/* <Route exact path="/contact" component={Modal} /> */}
-          <About/>
+        <Route exact path="/about" component={About} />
+          {/* <About/> */}
           <div class="card-group">
             {this.state.projects.map(project => (
               <Card
