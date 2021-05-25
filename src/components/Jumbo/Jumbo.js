@@ -1,13 +1,14 @@
 import React from "react";
-import About from "/About/About";
+import About from "../About/About";
 
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, Route, useRouteMatch } from "react-router-dom";
 
 
-function Jumbo () {
+function Jumbo (props) {
   const location = useLocation();
-
+  console.log(props.match.url);
     return(
+    
     <div className="jumbotron jumbotron-fluid">
       <div className="container">
         <h1 className="display-4">Jenna Garrison's Portfolio</h1>
@@ -16,9 +17,11 @@ function Jumbo () {
       <ul className="nav justify-content-end">
       <li className="nav-item">
         <Link
-          to="/about"
+          to={`${props.match.url}/about`}
           className={Location.pathname === "/about" ? "nav-link active" : "nav-link"}
-        >About</Link>
+        >About</Link>\
+         <Route path="/About" component={About} />
+          <About/>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="/Jenna_Garrison_ Resume.pdf" target="_blank" rel="noreferrer">Resume</a>
