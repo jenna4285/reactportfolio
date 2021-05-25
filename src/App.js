@@ -20,7 +20,6 @@ class App extends Component {
       <div className="App">
         <Jumbo/>
         <Route path="/About" component={About} />
-          <About/>
           <div class="card-group">
             {this.state.projects.map(project => (
               <Card

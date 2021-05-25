@@ -6,7 +6,8 @@ import { Link, useLocation, Route, useRouteMatch } from "react-router-dom";
 
 function Jumbo (props) {
   const location = useLocation();
-  console.log(props.match.url);
+  let {path, url} = useRouteMatch()
+  console.log(url, path);
     return(
     
     <div className="jumbotron jumbotron-fluid">
@@ -17,11 +18,8 @@ function Jumbo (props) {
       <ul className="nav justify-content-end">
       <li className="nav-item">
         <Link
-          to={`${props.match.url}/about`}
-          className={Location.pathname === "/about" ? "nav-link active" : "nav-link"}
-        >About</Link>\
-         <Route path="/About" component={About} />
-          <About/>
+          to="/About" className={window.location.pathname === '/About' ? 'nav-link' : 'nav-link'}
+        >About</Link>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="/Jenna_Garrison_ Resume.pdf" target="_blank" rel="noreferrer">Resume</a>
